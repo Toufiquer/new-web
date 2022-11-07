@@ -18,6 +18,9 @@ nav .logo {
   padding: 10px;
   font-weight: 700;
 }
+nav .logo .fa-solid {
+  margin: 4px;
+}
 nav ul {
   display: flex;
   align-items: center;
@@ -33,4 +36,34 @@ nav ul li a {
 }
 nav ul li a img {
   border-radius: 50%;
+}
+
+/* Section */
+section {
+  display: flex;
+  justify-content: center;
+}
+section .content {
+  width: 90%;
+  background-color: rgb(190, 248, 229);
+  padding: 9px;
+  margin: 9px;
+}
+section header h2 {
+  padding: 18px 0px;
+}
+
+section .client-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+section .client {
+  display: flex;
+  align-items: center;
+}
+
+section .client img {
+  border-radius: 50%;
+  margin: 4px;
 }
