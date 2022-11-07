@@ -67,3 +67,32 @@ section .client img {
   border-radius: 50%;
   margin: 4px;
 }
+
+/* top-blog */
+.top-blog h3 {
+  padding: 18px 0;
+  font-weight: 700;
+  font-size: 22px;
+}
+.top-blog .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 9px;
+}
+article {
+  display: flex;
+}
+article img {
+  width: 120px;
+  height: 80px;
+  margin: 0 9px;
+}
+article .description h4 {
+  font-size: 22px;
+}
+article .description small {
+  color: rgb(122, 122, 122);
+}
+article .description p {
+  color: rgb(31, 23, 23);
+}
